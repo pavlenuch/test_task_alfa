@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.0.1"
+  }
+}

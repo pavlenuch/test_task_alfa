@@ -1,0 +1,11 @@
+{
+    "watchForFileChanges": false,
+    "video": false,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "reportFilename": "[status]_[datetime]-[name]",
+        "overwrite": false,
+        "embeddedScreenshots": true
+    }
+}

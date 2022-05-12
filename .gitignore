@@ -1,0 +1,19 @@
+### Cypress Custom .gitignore ###
+*.log.*
+dist-*
+build
+.history
+.publish
+_test-output
+cypress.zip
+.babel-cache
+
+*/cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
+cypress/mochawesome-report/*
+cypress/mochawesome.json
+cypress/*.xml
+
+*node_modules/*
